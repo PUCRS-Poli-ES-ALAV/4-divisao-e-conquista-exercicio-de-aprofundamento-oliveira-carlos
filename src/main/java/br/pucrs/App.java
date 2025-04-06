@@ -2,10 +2,6 @@ package br.pucrs;
 
 import java.util.Random;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     static long iteracoes = 0;
