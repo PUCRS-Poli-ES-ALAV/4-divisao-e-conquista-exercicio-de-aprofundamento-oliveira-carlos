@@ -90,6 +90,8 @@ public class Main{
     
     public static void testarMaxIterativo(long[] vetor) {
         long inicio = System.nanoTime();
+
+        //O valor máximo encontrado no vetor
         long max = maxIterativo(vetor);
         long fim = System.nanoTime();
 
@@ -113,6 +115,8 @@ public class Main{
     public static void testarMaxRecursivo(long[] vetor) {
         iteracoesMaxRecursivo = 0;
         long inicio = System.nanoTime();
+        
+        //O valor máximo encontrado no vetor
         long max = maxRecursivo(vetor, 0, vetor.length - 1);
         long fim = System.nanoTime();
 
